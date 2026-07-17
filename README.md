@@ -55,16 +55,16 @@ Search expense
 ## Sample Output
 
 ### Adding Expense
-![Sample Output 1](screenshots/sample_output1.png)
+![Sample Output 1](Sample_output1.png)
 
 ### Viewing Expense
-![Sample Output 2](screenshots/sample_output2.png)
+![Sample Output 2](sample_output2.png)
 
 ### Delete Expense
-![Sample Output 3](screenshots/sample_output3.png)
+![Sample Output 3](sample_output3.png)
 
 ### Category Summary
-![Sample Output 4](screenshots/sample_output4.png)
+![Sample Output 4](sample_output4.png)
 
 ### Search Expense
-![Sample Output 5](screenshots/sample_output5.png)
+![Sample Output 5](sample_output5.png)
