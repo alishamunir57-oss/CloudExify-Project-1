@@ -158,16 +158,8 @@ English                           87
 
 ---
 
-## 9. Known Issues (Minor — Not Blocking Submission)
 
-**Edit Grade — ID branch stays silent on invalid input.**
-When editing a grade by student ID, if the entered grade fails validation (non-numeric or out of range), the function returns without printing any message — no confirmation, no error. The name-based branch already handles this correctly with an "Invalid Grade." message. This is a small UX inconsistency, not a crash, since the underlying validation itself works correctly in both branches.
-
-*Planned fix:* add an `else: print("Invalid Grade.")` to the ID branch, matching the name branch exactly.
-
----
-
-## 10. Bugs Found During Development & Resolutions
+## 9. Bugs Found During Development & Resolutions
 
 | Bug | Description | Resolution |
 |---|---|---|
@@ -184,17 +176,8 @@ When editing a grade by student ID, if the entered grade fails validation (non-n
 
 ---
 
-## 11. What I'd Add With More Time
 
-- Fix the edit-grade validation gap noted above
-- Display profile fields (father's name, phone, email, class) on the exported `.txt` report
-- Handle corrupted/malformed CSV rows gracefully
-- A `Student` class-based refactor as a next-step learning exercise beyond this project's scope
-- Sorting/filtering options in the student list view
-
----
-
-## 12. How to Run
+## 10. How to Run
 
 ```bash
 python grade_system.py
